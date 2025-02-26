@@ -2,15 +2,15 @@
 
 This is a **Content Explorer Dashboard** built using **React, TypeScript, TailwindCSS, and Framer Motion**. It allows users to explore blog posts, todos, albums and users: search for specific data by name or title, and dynamically load more content as they scroll. It is a demo project that integrates demo data for https://jsonplaceholder.typicode.com API.
 
-## 🚀 Features
+## Features
 
-- 📚 **List of Blog Posts** – Displays a lazyloaded grid of blog posts.
-- 🔍 **Search Functionality** – Users can search.
-- ♾ **Infinite Scrolling** – Automatically loads more data when scrolled to the bottom.
-- ♾ **Infinite Scrolling** – Paginated table to view more data.
-- 💖 **Like Feature** – Allows users to like posts (UI only for now).
-- 🌐 **Responsive Design** – Works across all screen sizes.
-- 🎨 **Smooth Animations** – Uses Framer Motion for interactions.
+- **List of Blog Posts** – Displays a lazyloaded grid of blog posts.
+- **Search Functionality** – Users can search.
+- **Infinite Scrolling** – Automatically loads more data when scrolled to the bottom.
+- **Infinite Scrolling** – Paginated table to view more data.
+- **Like Feature** – Allows users to like posts (UI only for now).
+- **Responsive Design** – Works across all screen sizes.
+- **Smooth Animations** – Uses Framer Motion for interactions.
 
 ## 🛠️ Tech Stack
 
@@ -19,7 +19,7 @@ This is a **Content Explorer Dashboard** built using **React, TypeScript, Tailwi
 - **Routing**: React Router
 - **Data Fetching**: Custom Hook like (`usePosts`) and React Query
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 📦 blog-project
@@ -35,16 +35,16 @@ This is a **Content Explorer Dashboard** built using **React, TypeScript, Tailwi
 ├── 📄 package.json       # Dependencies & scripts
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
-### 1️⃣ Clone the Repository
+### 1️. Clone the Repository
 
 ```sh
 git clone https://github.com/amarachigoodness74/acehelp-test.git
 cd acehelp-test
 ```
 
-### 2️⃣ Install Dependencies
+### 2️. Install Dependencies
 
 ```sh
 yarn install
@@ -52,7 +52,7 @@ yarn install
 npm install
 ```
 
-### 3️⃣ Start the Development Server
+### 3. Start the Development Server
 
 ```sh
 yarn dev
@@ -62,7 +62,7 @@ npm run dev
 
 The app will be available at: **`http://localhost:5173`**
 
-## ⚡ Usage
+## Usage
 
 1. Browse the latest blogs, todos, albums and list of users.
 2. Use the search bar to find content by title or name.
@@ -70,12 +70,16 @@ The app will be available at: **`http://localhost:5173`**
 4. Click **Read More** to view full blog content.
 5. Click the **Heart (Like)** button to interact.
 
-## 🛠️ Accessibility Features
+## Accessibility Features
 
 - `aria-labels` for interactive elements.
 - Keyboard navigation (`Enter` & `Space` support).
 - `aria-live` announcements for dynamic content.
 
-## 📜 License
+## Live Link
+
+https://acehelp-test.vercel.app
+
+## License
 
 This project is **MIT Licensed**. See `LICENSE` for details.
