@@ -70,6 +70,12 @@ The app will be available at: **`http://localhost:5173`**
 4. Click **Read More** to view full blog content.
 5. Click the **Heart (Like)** button to interact.
 
+## Additional Requirements
+
+1. Ability to add new entries
+2. Display user information better
+3. Add a proile page for user
+
 ## Accessibility Features
 
 - `aria-labels` for interactive elements.
